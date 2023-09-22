@@ -630,6 +630,9 @@ img {
   margin-left: 16px;
   margin-bottom: 16px;
 }
+.text-area {
+  margin-bottom: 16px;
+}
 .modal-label {
   color: var(--LIGHT-SLATE);
   font-size: 12px;
