@@ -628,6 +628,7 @@ img {
 }
 .modal-window {
   margin-left: 16px;
+  margin-bottom: 16px;
 }
 .modal-label {
   color: var(--LIGHT-SLATE);
@@ -658,7 +659,6 @@ img {
 }
 .modal-input-wrap {
   position: relative;
-  margin-bottom: 16px;
 }
 .modal-fill {
   fill: var(--color-iris);
