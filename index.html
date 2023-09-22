@@ -490,17 +490,16 @@
                   placeholder="Text input"></textarea>
             </div>
             <div class="modal-privacy">
-               <label class="checkbox-input visually-hidden" type="checkbox" name="user-privacy" value="true"
-                  id="user-privacy">
+               <input class="checkbox-input visually-hidden" type="checkbox" name="user-privacy" value="true"
+                  id="user-privacy" />
+               <label class="checkbox-label">
                   <span class="checkbox-span">
-                     <svg class="modal-fill" width="10" height="8">
+                     <svg class="checkbox-svg" width="10" height="8">
                         <use href="./images/icons.svg#icon-Checkbox"></use>
 
-                     </svg></span>
-                  <label class="modal-privacy-text" for="user-privacy">I accept the terms and conditions of the
-
-                     <a class="span-privacy" href="#" target="_blank">Privacy Policy</a>
-                  </label>
+                     </svg></span>I accept the terms and conditions of the
+                  <a class="modal-privacy-text" href="#" target="_blank">Privacy Policy</a>
+               </label>
             </div>
 
             <button class="modal-button" type="submit">Send</button>
